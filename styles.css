@@ -1,0 +1,26 @@
+/* Step 1 */
+p {
+	border-bottom: 1px solid red;
+}
+
+.kermit {
+	border: 5px dashed green;
+	border-radius: 25%;
+}
+
+#main-div-q {
+	padding: 5%;
+}
+
+/* Step 2 */
+#main-div-2 > .kermit {
+	border: 2px dotted purple;
+}
+
+#main-div-2 > p {
+	background-color: orange;
+}
+
+h2 ~ p {
+	background-color: gray;
+}
